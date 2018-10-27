@@ -1,0 +1,61 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__subtitle {
+  margin: 5px;
+  font-weight: 300;
+}
+
+.form__content {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.polls-item-link {
+  background-color: #ccc;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.polls-item-link:hover {
+  color: #fff;
+  background-color: #a09d9d;
+}
+
+.answers__text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.error-label {
+  color: red;
+}
+.progress {
+  min-width: 200px;
+}
+.progress__inner {
+  background: blueviolet;
+  height: 10px;
+}
+
+.voted {
+  font-weight: 800;
+}

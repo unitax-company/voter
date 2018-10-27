@@ -1,0 +1,42 @@
+{
+  "name": "voter",
+  "version": "1.0.0",
+  "description": "Coded by Mark Zavgorodniy",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "biguint-format": "^1.0.0",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.4",
+    "debounce": "^1.2.0",
+    "express": "^4.16.3",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.17",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "app": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitax-company/voter.git"
+  },
+  "author": "Mark Zavgorodniy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unitax-company/voter/issues"
+  },
+  "homepage": "https://github.com/unitax-company/voter#readme"
+}
